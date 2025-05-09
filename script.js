@@ -638,7 +638,7 @@ if(puntuacionMenu){
 
 
     document.getElementById("boton1").addEventListener("click",function(){
-        window.location.href="../index/index.html"
+        window.location.href="../index.html"
 
     });
 
@@ -738,7 +738,7 @@ if(inicioSesion1){
           alert("Usted ha iniciado sesion como: "+usuarioID.value)
         
           sessionStorage.setItem('username', usuarioID.value);
-          window.location.href = "../index/index.html";
+          window.location.href = "../index.html";
     
          }
     
@@ -877,13 +877,13 @@ if(continueCheckbox){
             if(checkeada===true){
               alert("Usted ha iniciado sesion como: "+usuarioID.value)
               sessionStorage.setItem('username', usuarioID.value);
-              window.location.href = "../index/index.html";
+              window.location.href = "../index.html";
   
   
   
             }else{
               alert("*Usted ha creado la cuenta*")
-              window.location.href = "../index/index.html";
+              window.location.href = "../index.html";
   
             }
            }
