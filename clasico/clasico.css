@@ -1,0 +1,266 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0C151D;
+    font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+    font-style: normal;
+    color: white;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+
+.flex{
+    margin-top: 0.4px;
+    display: flex;
+}
+
+.imagen{
+    opacity: 0.3;
+    border: 1px solid black;
+}
+
+.fade-in{
+    opacity: 0; /* Empieza invisible */
+    animation: fadeInAnimation 1s ease-in forwards; /* Aplica la animación */
+}
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.texto-img-1{
+   position: absolute;
+   display: flex; 
+   font-size: 70px;  
+   margin-top: 350px;
+   margin-left: 100px;
+   z-index: 1;
+    width: 750px;
+    justify-content: center;
+    align-items: center;
+}
+.texto-img-2{
+    position: absolute;
+   display: flex; 
+   font-size: 70px;  
+   margin-top: 350px;
+   margin-left: 1058px;
+   z-index: 1;
+   width: 750px;
+   justify-content: center;
+    align-items: center;
+}
+
+.texto-img-1-dentro{
+    text-align: center;
+    font-weight: 500;
+}
+.texto-img-2-dentro{
+    text-align: center;
+    font-weight: 500;
+}
+.texto-img-1-a{
+    position: absolute;
+    display: flex; 
+    font-size: 20px;  
+    margin-top: 455px;
+    margin-left: 455px;
+    z-index: 1; 
+}
+.texto-img-2-a{
+    position: absolute;
+    display: flex; 
+    font-size: 20px;  
+    margin-top: 455px;
+    margin-left: 1413px;
+    z-index: 1; 
+}
+.div-numero-visitas-1{
+    position: absolute;
+    display: flex; 
+    font-size: 80px;  
+    margin-top: 500px;
+    margin-left: 376px;
+    color: rgb(249, 249, 129);
+    z-index: 1; 
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.div-numero-visitas-2{
+    position: absolute;
+    display: flex; 
+    font-size: 80px;  
+    margin-top: 500px;
+    margin-left: 1137px;
+    color: rgb(249, 249, 129);
+    z-index: 1; 
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.numeroVisitas-1{
+    text-align: center;
+    font-weight: 600;
+}
+.contadorGanadas{
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    margin-left: 1730px;
+    margin-top: 900px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 24px;
+}
+.texto-inferior-1{
+    position: absolute;
+    display: flex; 
+    font-size: 18px;  
+    margin-top: 610px;
+    margin-left: 360px;
+    z-index: 1; 
+}
+.texto-inferior-2{
+    position: absolute;
+    display: flex; 
+    font-size: 18px;  
+    margin-top: 610px;
+    margin-left: 1320px;
+    z-index: 1; 
+}
+.botones-flex{
+    width: 295px;
+    position: absolute;
+    height: 200px;
+    margin-left: 1290px;
+    margin-top: 500px;
+text-align: center;
+z-index: 1; 
+
+    
+}
+.boton1{
+    width: 190px;
+    height: 55px;
+    border-radius: 50px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-top: 10px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: rgb(249, 249, 129);
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.5s all ease;
+    cursor:pointer;
+
+}
+.boton2{
+    width: 190px;
+    height: 55px;
+    border-radius: 50px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-top: 10px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: rgb(249, 249, 129);
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.5s all ease;
+    cursor:pointer;
+
+}
+
+.visitas{
+    margin-top: 10px;
+    display: flex;
+justify-content: center;
+}
+.contenidoBoton{
+    display: flex;
+}
+.textoDentroBoton1{
+    margin-left: 45px;
+}
+.triangulo1{
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+}
+.triangulo2{
+    color: white;
+    font-size: 20px;
+    margin-left: 18px;
+}
+.vs{
+    position: absolute;
+    height: 130px;
+    width:130px; 
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    z-index: 1;
+    margin-left: 895px;
+    border: 2px solid black;
+    margin-top: 20%;
+    display: flex;
+
+}
+.vs2{
+    position: absolute;
+    height: 130px;
+    width:130px; 
+    background-color: rgb(158, 226, 124);
+    border-radius: 50%;
+    z-index: 1;
+    margin-left: 895px;
+    border: 2px solid black;
+    margin-top: 20%;
+    display: flex;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.vs3{
+    position: absolute;
+    height: 130px;
+    width:130px; 
+    background-color: rgb(230, 110, 110);
+    border-radius: 50%;
+    z-index: 1;
+    margin-left: 895px;
+    border: 2px solid black;
+    margin-top: 20%;
+    display: flex;
+    opacity: 0;
+    transition: 1s;
+}
+.vsDentro{
+    position: absolute;
+    margin-top: 44px;
+    margin-left: 37px;
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+}
+.vsDentro1{
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 16px;
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+}
+.texto-Visitas{
+    margin-left: 4px;
+}
